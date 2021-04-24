@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/nosotros', (req, res) => {
-    res.send('Nosotros');
+    res.render('nosotros');
 });
 
 router.get('/contacto', (req, res) => {

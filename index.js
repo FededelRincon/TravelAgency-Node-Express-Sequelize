@@ -10,6 +10,9 @@ const port = process.env.PORT || 4000;
 //Habilitar PUG (equivalente a HBS o EJS) (HBS seria lo mas parecido a react)
 app.set('view engine', 'pug');
 
+//Definir carpeta publica
+app.use(express.static('public'));
+
 //agregar Router
 app.use('/', router);
 

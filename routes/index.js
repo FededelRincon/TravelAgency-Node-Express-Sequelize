@@ -10,8 +10,5 @@ router.get('/nosotros', (req, res) => {
     res.render('nosotros')
 });
 
-router.get('/contacto', (req, res) => {
-    res.send('Contacto');
-});
 
 export default router;

@@ -3,4 +3,29 @@ extends ./layout/index
 block contenido
     main.container.mt-5
         .row
-            h1 #{pagina}
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Mauris luctus tortor ex, sed tincidunt metus malesuada id. Nullam mattis efficitur nunc ac bibendum. Fusce vestibulum feugiat risus nec porta. Nullam in ante id purus malesuada ultrices. Quisque convallis elit at turpis vestibulum pretium. Vestibulum ac enim congue dui molestie consequat ut nec tellus. Eu ullamcorper diam rhoncus id. 
+
+                p Integer eleifend orci et bibendum maximus. Donec congue sagittis ante, at placerat sapien pulvinar vel. Maecenas id ultricies nunc. Nullam eget faucibus odio, aliquet cursus dolor. In hac habitasse platea dictumst. Morbi vitae mi odio. Sed nibh metus, commodo nec suscipit sit amet, rutrum ac velit. Nam ac massa sed velit suscipit rutrum. Nulla condimentum hendrerit nisi.
+
+                p Phasellus placerat, sem sit amet mollis tincidunt, lorem tellus laoreet mi, sit amet venenatis lorem nisl at turpis. In ac porttitor mauris. Vestibulum sollicitudin pharetra orci nec fermentum. In id ante finibus, lobortis eros non, iaculis neque. Etiam vitae suscipit tortor, lobortis pharetra erat. Mauris efficitur, lacus ut fringilla ullamcorper, lacus odio aliquet ante, vitae rhoncus nisi quam nec eros. 
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Vitae rhoncus nisi quam nec eros. Donec congue sagittis ante, at placerat sapien pulvinar vel. Nullam mattis efficitur nunc ac bibendum. 
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destino", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destino
+                    p Nullam mattis efficitur nunc ac bibendum. Fusce vestibulum feugiat risus nec porta. Nullam in ante id purus malesuada ultrices. Quisque convallis elit at turpis vestibulum pretium. Vestibulum ac enim congue dui molestie consequat ut nec tellus.
+
+                .col-md-4
+                    img(src="img/icono_precio.svg", alt="icono precio", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precio
+                    p Placerat, sem sit amet mollis tincidunt, lorem tellus laoreet mi, sit amet venenatis lorem nisl at turpis. Vitae rhoncus nisi quam nec eros. Donec congue sagittis ante, at placerat sapien pulvinar vel. Nullam mattis efficitur. 
